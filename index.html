@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('plane')">Plane</a></li>
+            <li><a href="#" onclick="showSection('hotel')">Hotel</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="content">
+        <h1>Kota-Kota di Jepang</h1>
+        <ul>
+            <li>Tokyo</li>
+            <li>Osaka</li>
+            <li>Kyoto</li>
+            <li>Hokkaido</li>
+        </ul>
+    </section>
+
+    <section id="plane" class="content">
+        <h1>Pemesanan Pesawat</h1>
+        <label>Pilih Penerbangan:</label>
+        <select>
+            <option>Steven Air</option>
+            <option>Tipen Fly</option>
+            <option>Eyo Terbang</option>
+        </select>
+        <label>Masukkan Jadwal:</label>
+        <input type="date">
+        <button>Pesan Sekarang</button>
+    </section>
+
+    <section id="hotel" class="content">
+        <h1>Pemesanan Hotel</h1>
+        <label>Pilih Hotel:</label>
+        <select>
+            <option>Nginep Bro</option>
+            <option>Hotel Mewah</option>
+            <option>Turu Room</option>
+        </select>
+        <label>Masukkan Jadwal:</label>
+        <input type="date">
+        <button>Pesan Sekarang</button>
+        <h2>Hotel Terbaik</h2>
+        <img src="images/hotel1.jpg" alt="Hotel 1">
+        <img src="images/hotel2.jpg" alt="Hotel 2">
+        <img src="images/hotel3.jpg" alt="Hotel 3">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
